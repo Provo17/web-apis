@@ -7,7 +7,7 @@ from news.models import Article, Journalist
 from news.api.serializers import ArticleSerializer
 from rest_framework.response import Response
 from rest_framework.generics import get_object_or_404
-from news.api.serializers import ArticleSerializer, JournalistSerializer
+from news.api.serializers import ArticleSerializer
 
 class ArticleListCreateAPIView(APIView):
 
